@@ -1,0 +1,83 @@
+{
+  "header": {
+    "Home": "Home",
+    "About": "About Us",
+    "Collection": "Collection",
+    "Contacts": "Contacts"
+  },
+  "hero": {
+    "Environmental": "Environmental",
+    "Clean": "Clean Sleep",
+    "Products": "Products"
+  },
+  "service": {
+    "Free":"Free Shipping",
+    "Free shipping":"Free shipping on all orders",
+    "Return":"Return Guarantee",
+    "30":"30 days refund",
+    "24/7":"24/7 online support",
+    "24/7 technical":"24/7 technical support",
+    "Secure":"Secure Payment",
+    "All":"All payment methods accepted"
+  },
+  "quality":{
+    "Material":"Material quality",
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "has":"has been a company producing cotton fabrics for use all over the world for many years",
+    "Collection":"Collection"
+  },
+  "collection":{
+    "Winter":"Winter Collection",
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "1":"Squares",
+    "2":"Ikat",
+    "3":"Circles",
+    "4":"Geometry Blue",
+    "5":"Tropical Leaves",
+    "6":"Bambi",
+    "7":"Byzantium",
+    "8":"Evening Garden",
+    "9":"Pat Marquis",
+    "10":"Lavender Roses"
+  },
+  "autumn":{
+    "Autumn":"Autumn Collection",
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "1":"Safari",
+    "2":"Multicolor Amethyst",
+    "3":"Shivali decoration",
+    "4":"Emerald (AB)",
+    "5":"Malachite Box",
+    "6":"Scents of Spring",
+    "7":"Falling autumn leaves (AB)",
+    "8":"Blue Breeze",
+    "9":"Blue Water",
+    "10":"Plaid"
+  },
+  "summer":{
+    "Summer":"Summer Collection",
+    "Ecologically":"Ecologically Clean Sleep Products"
+  },
+  "news":{
+    "News":"News",
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "by":"by admin",
+    "How":"How to choose the perfect gadgets",
+    "When":"When the beautiful valley fills with steam and the meridian sun hits the hill...",
+    "How2":"How to use modern technology",
+    "Interesting":"Interesting stories about how technology changes our lives...",
+    "Ways":"Ways to implement creative ideas",
+    "What":"What difficulties are encountered in the process of making many new discoveries..."
+  },
+  "footer":{
+    "Ecological":"Ecological Clean Sleep Products is a company that produces cotton fabrics for use all over the world for many years.",
+    "menu":"menu",
+    "Bukhara":"Bukhara, st. Alpomish 80",
+    "Email": "Email: sleepnest@gamil.com",
+    "Telegram":"Telegram: sleepnest",
+    "Subscribe":"Subscribe to our email",
+    "Subscribee":"Subscribe",
+    "Select":"Select at least one list.",
+    "2024":"© 2024 Ecological Clean Sleep Products LLC All rights reserved."
+  }
+}

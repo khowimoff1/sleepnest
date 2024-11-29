@@ -1,0 +1,80 @@
+
+{
+    "header":{
+        "Home":"Bosh sahifa",
+        "About":"To'plam",
+        "Collection":"Biz haqimizda",
+        "Contacts":"Kontaktlar"
+    },
+    "hero": {
+      "Environmental": "Ekologik",
+      "Clean": "Toza Uyqu",
+      "Products": "Mahsulotlari"
+    },
+    "service": {
+      "Free":"Yetkazib berish bepul",
+      "Free shipping":"Barcha buyurtmalar uchun bepul yetkazib berish",
+      "Return":"Qaytish kafolati",
+      "30":"30 kunlik pulni qaytarish",
+      "24/7":"24/7 onlayn qo'llab-quvvatlash",
+      "24/7 technical":"24/7 texnik yordam",
+      "Secure":"Xavfsiz to'lov",
+      "All":"Barcha to'lov usullari qabul qilinadi"
+    },
+    "quality":{
+      "Material":"Material sifati",
+      "Ecologically":"Ekologik Toza Uyqu Mahsulotlari",
+      "has":"ko'p yillar davomida butun dunyoda foydalanish uchun paxta matolarini ishlab chiqaradigan kompaniya bo'lib kelgan",
+      "Collection":"Toplam"
+    },
+    "collection":{
+      "Winter":"Qish kolleksiyasi",
+      "Ecologically":"Ekologik Toza Uyqu Mahsulotlari",
+      "1":"Kvadratchalar",
+      "2":"Ikat",
+      "3":"Davralar",
+      "4":"Geometriya ko'k",
+      "5":"Tropik barglar",
+      "6":"Bambi",
+      "7":"Vizantiya",
+      "8":"Kechki bog'",
+      "9":"Pat Markiz",
+      "10":"Lavanda atirgullari"
+    },
+    "autumn":{
+      "Autumn":"Kuz kolleksiyasi",
+      "Ecologically":"Ekologik Toza Uyqu Mahsulotlari",
+      "1":"Safari",
+      "2":"Ko'p rangli ametist",
+      "3":"Shivali bezak",
+      "4":"Zumrad (AB)",
+      "5":"Malaxit qutisi",
+      "6":"Bahorning hidlari",
+      "7":"Kuzgi barglar tushishi (AB)",
+      "8":"Moviy shabada",
+      "9":"Moviy suv",
+      "10":"Plaid"
+    },
+    "news":{
+      "News":"Yangiliklar",
+      "Ecologically":"Ekologik Toza Uyqu Mahsulotlari",
+      "by":"admin tomonidan",
+      "How":"Qanday qilib mukammal gadjetlarni tanlash mumkin",
+      "When":"Go'zal vodiyning bug' bilan to'lganda va meridian quyoshi tepalikka urilganda...",
+      "How2":"Zamonaviy texnologiyalardan qanday foydalanish kerak",
+      "Interesting":"Texnologiyalar hayotimizni qanday o'zgartirishi haqida qiziqarli hikoyalar...",
+      "Ways":"Kreativ g'oyalarni amalga oshirish yo'llari",
+      "What":"Ko'plab yangi kashfiyotlar yaratish jarayonida qanday qiyinchiliklarga duch kelinadi..."
+    },
+    "footer":{
+      "Ecological":"“Ekologik Toza Uyqu Mahsulotlat” koʻp yillardan buyon butun dunyoda foydalanish uchun paxta matolari ishlab chiqaradigan kompaniya hisoblanadi.",
+      "menu":"menyu",
+      "Bukhara":"Buxoro, st. Alpomish 80.",
+      "Email": "Email: sleepnest@gamil.com",
+      "Telegram":"Telegram: sleepnest",
+      "Subscribe":"Elektron pochtamizga obuna bo'ling",
+      "Subscribee":"Obuna Bo'ling",
+      "Select":"Kamida bitta roʻyxatni tanlang.",
+      "2024":"© 2024 MChJ Ekologik Toza Uyqu Mahsulotlari Barcha huquqlar himoyalangan."
+    }
+}
