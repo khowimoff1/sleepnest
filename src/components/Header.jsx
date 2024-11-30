@@ -31,7 +31,7 @@ const Header = () => {
     <div className="container flex items-center justify-between px-3 lg:px-0 m-auto max-w-[85rem]">
       <a href="/">
         <img
-          src="../public/Images/logo.png"
+          src="Images/logo.png"
           alt="logo"
           width={100}
           height={45}
