@@ -7,24 +7,16 @@ const Autumn = () => {
   const { t, i18n } = useTranslation();
 
   const collection2 = [
-    { id: 1, name: t("autumn.1"), image: "Images/winter/1.jpg" },
-    { id: 2, name: t("autumn.2"), image: "Images/winter/2.jpg" },
-    { id: 3, name: t("autumn.3"), image: "Images/winter/3.jpg" },
-    { id: 4, name: t("autumn.4"), image: "Images/winter/4.jpg" },
-    { id: 5, name: t("autumn.5"), image: "Images/winter/5.jpg" },
-    { id: 6, name: t("autumn.6"), image: "Images/winter/6.jpg" },
-    { id: 7, name: t("autumn.7"), image: "Images/winter/7.jpg" },
-    { id: 8, name: t("autumn.8"), image: "Images/winter/8.jpg" },
-    {
-      id: 9,
-      name: t("autumn.9"),
-      image: "Images/winter/9.jpg",
-    },
-    {
-      id: 10,
-      name: t("autumn.10"),
-      image: "Images/winter/10.jpg",
-    },
+    { id: 1, name: t("autumn.1"), image: "Images/autm/1.jpg" },
+    { id: 2, name: t("autumn.2"), image: "Images/autm/2.jpg" },
+    { id: 3, name: t("autumn.3"), image: "Images/autm/3.jpg" },
+    { id: 4, name: t("autumn.4"), image: "Images/autm/4.jpg" },
+    { id: 5, name: t("autumn.5"), image: "Images/autm/5.jpg" },
+    { id: 6, name: t("autumn.6"), image: "Images/autm/6.jpg" },
+    { id: 7, name: t("autumn.7"), image: "Images/autm/7.jpg" },
+    { id: 8, name: t("autumn.8"), image: "Images/autm/8.jpg" },
+    { id: 9, name: t("autumn.9"), image: "Images/autm/9.jpg" },
+    { id: 10, name: t("autumn.10"), image: "Images/autm/10.jpg" },
   ];
   useEffect(() => {
     AOS.init({

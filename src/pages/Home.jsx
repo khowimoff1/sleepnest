@@ -4,7 +4,7 @@ import { LiaShippingFastSolid } from "react-icons/lia";
 import { FiCheckCircle } from "react-icons/fi";
 import { SlEarphonesAlt } from "react-icons/sl";
 import { RiSecurePaymentLine } from "react-icons/ri";
-import Collection from "../components/Collection";
+import Collectionn from "../components/Collectionn";
 import Quality from "../components/Quality";
 import Autumn from "../components/Autumn";
 import Quality2 from "../components/Quality2";
@@ -23,7 +23,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="pt-20 m-auto max-w-[85rem] px-5 lg:px-0">
+    <div className="pt-20 m-auto max-w-[85rem] px-5 ">
       <div data-aos="fade-up-right" className="relative rounded-xl animate-colorCycle pb-[50px] md:pb-[200px] lg:-[300px] mb-10">
         <img
           src="Images/heroImg.png"
@@ -76,7 +76,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div data-aos="flip-up" className="relative bg-slate-700  pt-[100px] lg:pt-10 lg:pb-20 mt-36 pb-10  rounded-3xl flex flex-col items-center justify-center text-center gap-5 lg:justify-between md:flex-row md:mt-[18rem] px-5 mb-10 shadow-xl lg:mt-28">
+      <div className="relative bg-slate-700  pt-[100px] lg:pt-10 lg:pb-20 mt-36 pb-10  rounded-3xl flex flex-col items-center justify-center text-center gap-5 lg:justify-between md:flex-row md:mt-[18rem] px-5 mb-10 shadow-xl lg:mt-28">
         <div className="absolute -top-[150px] left-0 flex justify-center items-center w-full md:-top-[300px] lg:-top-[130px]">
           <img
             src="Images/quality.png"
@@ -86,7 +86,7 @@ const Home = () => {
             className=" md:w-[700px] md:h-[504px] lg:w-[800px] lg:h-[576px]"
           />
         </div>
-        <div>
+        <div data-aos="fade-up-right">
           <h1 className="text-[50px] lg:text-[90px] font-extrabold text-white">
             100%
           </h1>
@@ -94,7 +94,7 @@ const Home = () => {
             {t("quality.Material")}
           </p>
         </div>
-        <div className="z-10 space-y-5 md:space-y-2 md:text-start md:mt-14">
+        <div  data-aos="fade-up-left" className="z-10 space-y-5 md:space-y-2 md:text-start md:mt-14">
           <h1 className="text-[30px] font-semibold max-w-[400px] text-center  text-white md:text-start md:leading-7">
             {t("quality.Ecologically")}
           </h1>
@@ -108,7 +108,7 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <Collection/>
+      <Collectionn/>
       <Quality/>
       <Autumn/>
       <Quality2/>

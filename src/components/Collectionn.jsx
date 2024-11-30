@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import 'aos/dist/aos.css';
-import AOS from 'aos'; 
+import "aos/dist/aos.css";
+import AOS from "aos";
 
-const Collection = () => {
+const Collectionn = () => {
   const { t, i18n } = useTranslation();
 
   const collection = [
@@ -15,16 +15,8 @@ const Collection = () => {
     { id: 6, name: t("collection.6"), image: "Images/winter/6.jpg" },
     { id: 7, name: t("collection.7"), image: "Images/winter/7.jpg" },
     { id: 8, name: t("collection.8"), image: "Images/winter/8.jpg" },
-    {
-      id: 9,
-      name: t("collection.9"),
-      image: "Images/winter/9.jpg",
-    },
-    {
-      id: 10,
-      name: t("collection.10"),
-      image: "Images/winter/10.jpg",
-    },
+    { id: 9, name: t("collection.9"), image: "Images/winter/9.jpg" },
+    { id: 10, name: t("collection.10"), image: "Images/winter/10.jpg" },
   ];
 
   useEffect(() => {
@@ -79,4 +71,4 @@ const Collection = () => {
   );
 };
 
-export default Collection;
+export default Collectionn;

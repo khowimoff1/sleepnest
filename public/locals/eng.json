@@ -56,7 +56,17 @@
   },
   "summer":{
     "Summer":"Summer Collection",
-    "Ecologically":"Ecologically Clean Sleep Products"
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "1":"Vintage Style",
+    "2":"rocking dandelion",
+    "3":"French Riviera",
+    "4":"Dolly the Sheep",
+    "5":"Alpine plants",
+    "6":"Inspirational",
+    "7":"Green Lotus",
+    "8":"Mountain Corn",
+    "9":"Sakura Branch",
+    "10":"Olive Branch"
   },
   "news":{
     "News":"News",
@@ -79,5 +89,13 @@
     "Subscribee":"Subscribe",
     "Select":"Select at least one list.",
     "2024":"© 2024 Ecological Clean Sleep Products LLC All rights reserved."
+  },
+  "colect":{
+    "Searching":"Searching for ....",
+    "Collection":"Collection",
+    "All":"All Categories",
+    "Winter":"Winter Collection",
+    "Autumn":"Autumn Collection",
+    "Summer":"Summer Collection"
   }
 }

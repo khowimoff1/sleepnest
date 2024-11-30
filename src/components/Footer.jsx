@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <div className="">
       <div className="container flex flex-col items-start justify-between m-auto max-w-[85rem] px-5 mt-10 lg:flex-row">
-        <div className="flex flex-col lg:gap-20 md:flex-row">
-          <div className="flex flex-col justify-center items-cerownter md:items-start">
+        <div className="flex flex-col w-full lg:gap-20 md:flex-row">
+          <div className="flex flex-col items-center justify-center md:items-start">
             <img
               src="Images/logo.png"
               alt="logo"
@@ -17,7 +17,7 @@ const Footer = () => {
               {t("footer.Ecological")}
             </h1>
           </div>
-          <div className="flex gap-10 mt-5 lg:gap-20">
+          <div className="flex items-center justify-center gap-10 mt-5 lg:gap-20 md:justify-normal md:items-start">
             <div>
               <h1 className="text-base font-bold">{t("footer.menu")}</h1>
               <nav className="flex flex-col mt-2">
@@ -72,7 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="flex flex-col items-center w-full mt-5 md:w-auto md:items-start">
           <h1 className="text-base font-bold">{t("footer.Subscribe")}</h1>
           <label className="flex items-center justify-center px-2 mt-2 border-2 rounded-xl md:w-[400px]">
             <input
