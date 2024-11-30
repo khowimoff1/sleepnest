@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex flex-col lg:gap-20 md:flex-row">
           <div className="flex flex-col justify-center items-cerownter md:items-start">
             <img
-              src="../public/Images/logo.png"
+              src="Images/logo.png"
               alt="logo"
               className="w-64 md:w-72"
             />

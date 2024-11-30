@@ -1,16 +1,8 @@
-import React, { useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import 'aos/dist/aos.css';
-import AOS from 'aos'; 
+import React from 'react'
+import { useTranslation } from 'react-i18next';
 
 const Summer = () => {
     const { t, i18n } = useTranslation();
-    useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        once: false,
-      });
-    }, []);
 
     const collection = [
       { id: 1, name: t("collection.1"), image: "../public/Images/winter/1.jpg" },
@@ -34,7 +26,7 @@ const Summer = () => {
     ];
   
     return (
-      <div data-aos="zoom-in-up" className="flex flex-col items-center mt-20">
+      <div className="flex flex-col items-center mt-20">
         <h1 className="text-xl md:text-[35px] font-bold">
           {t("summer.Summer")}
         </h1>

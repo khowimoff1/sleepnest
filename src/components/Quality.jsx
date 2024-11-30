@@ -17,7 +17,7 @@ const Quality = () => {
     <div data-aos="flip-up" className="relative bg-purple-700  pt-[100px] lg:pt-10 lg:pb-20 mt-36 pb-10  rounded-3xl flex flex-col items-center justify-center text-center gap-5 lg:justify-between md:flex-row md:mt-[18rem] px-5 mb-10 shadow-xl lg:mt-28">
         <div className="absolute -top-[150px] left-0 flex justify-center items-center w-full md:-top-[300px] lg:-top-[130px]">
           <img
-            src="../public/Images/quality2.png"
+            src="Images/quality2.png"
             alt="qualty"
             width={394}
             height={284}

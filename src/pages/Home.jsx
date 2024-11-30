@@ -26,7 +26,7 @@ const Home = () => {
     <div className="pt-20 m-auto max-w-[85rem] px-5 lg:px-0">
       <div data-aos="fade-up-right" className="relative rounded-xl animate-colorCycle pb-[50px] md:pb-[200px] lg:-[300px] mb-10">
         <img
-          src="../public/images/heroImg.png"
+          src="Images/heroImg.png"
           alt="hero"
           className="absolute w-[400px] lg:-left-40 lg:-top-20 lg:w-[1300px] md:-left-32 md:-top-12 md:w-[1000px]"
         />
@@ -79,7 +79,7 @@ const Home = () => {
       <div data-aos="flip-up" className="relative bg-slate-700  pt-[100px] lg:pt-10 lg:pb-20 mt-36 pb-10  rounded-3xl flex flex-col items-center justify-center text-center gap-5 lg:justify-between md:flex-row md:mt-[18rem] px-5 mb-10 shadow-xl lg:mt-28">
         <div className="absolute -top-[150px] left-0 flex justify-center items-center w-full md:-top-[300px] lg:-top-[130px]">
           <img
-            src="../public/Images/quality.png"
+            src="Images/quality.png"
             alt="qualty"
             width={394}
             height={284}
