@@ -16,12 +16,12 @@ const Summer = () => {
       {
         id: 9,
         name: t("collection.9"),
-        image: "../public/Images/winter/9.jpg",
+        image: "Images/winter/9.jpg",
       },
       {
         id: 10,
         name: t("collection.10"),
-        image: "../public/Images/winter/10.jpg",
+        image: "Images/winter/10.jpg",
       },
     ];
   
