@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       animation: {
-        colorCycle: 'colorChange 3s infinite', // 3 soniyalik cheksiz animatsiya
+        colorCycle: 'colorChange 3s infinite',
+        slideIn: 'slideIn 0.5s ease-out',
+        'slide-out': 'slideOut 0.5s ease-out'
       },
       keyframes: {
         colorChange: {
@@ -13,6 +15,14 @@ export default {
           '50%': { backgroundColor: '#eabb74' },
           '75%': { backgroundColor: '#dcba94' },
           '100%': { backgroundColor: '#ecdabf' },
+        },
+        slideIn: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideOut: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100%)' },
         },
       },
     },

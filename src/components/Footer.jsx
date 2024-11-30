@@ -74,13 +74,13 @@ const Footer = () => {
         </div>
         <div className="mt-5">
           <h1 className="text-base font-bold">{t("footer.Subscribe")}</h1>
-          <label className="flex items-center justify-center px-2 mt-2 border-2 rounded-xl">
+          <label className="flex items-center justify-center px-2 mt-2 border-2 rounded-xl md:w-[400px]">
             <input
               type="email"
               placeholder={t("footer.Subscribe")}
-              className="w-full p-3 outline-none"
+              className="w-full h-12 p-3 outline-none"
             />
-            <button className="w-24 text-sm font-medium text-white bg-red-600 rounded-xl h-9 hover:bg-black">
+            <button className="px-1 text-sm font-medium text-white bg-red-600 w-36 rounded-xl h-9 hover:bg-black ">
               {t("footer.Subscribee")}
             </button>
           </label>
@@ -89,7 +89,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="py-5 mt-5 font-semibold text-gray-500 bg-black">
+      <div className="py-5 mt-5 text-[8px] font-semibold text-gray-500 bg-black md:text-base">
         <div className="container m-auto max-w-[85rem] px-5 ">{t("footer.2024")}</div>
       </div>
     </div>

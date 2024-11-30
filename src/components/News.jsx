@@ -1,8 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import 'aos/dist/aos.css';
+import AOS from 'aos'; 
 
 const News = () => {
   const { t, i18n } = useTranslation();
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: false,
+    });
+  }, []);
 
   const news = [
     {
@@ -32,14 +40,14 @@ const News = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center mt-20">
+    <div data-aos="flip-up" className="flex flex-col items-center mt-20">
       <h1 className="text-xl md:text-[35px] font-bold">{t("news.News")}</h1>
       <p className="mt-4 text-base font-semibold text-gray-400">
         {t("news.Ecologically")}
       </p>
       <div className="flex flex-col justify-between mt-5 md:flex-row md:gap-5 lg:gap-10">
         {news.map(item => (
-            <div key={item.id}>
+            <div data-aos="flip-up" key={item.id}>
                 <img src={item.image} alt="news" className="w-full rounded-2xl"/>
                 <div className="flex items-center gap-2 mt-1 mb-3">
                     <h1 className="font-semibold">{item.date}</h1>
