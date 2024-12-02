@@ -5,16 +5,16 @@ const Summer = () => {
     const { t, i18n } = useTranslation();
 
     const collection = [
-      { id: 3, name: t("summer.3"), image: "Images/summer/3.jpg" },
-      { id: 2, name: t("summer.2"), image: "Images/summer/2.jpg" },
-      { id: 4, name: t("summer.4"), image: "Images/summer/4.jpg" },
-      { id: 1, name: t("summer.1"), image: "Images/summer/1.jpg" },
-      { id: 5, name: t("summer.5"), image: "Images/summer/5.jpg" },
-      { id: 6, name: t("summer.6"), image: "Images/summer/6.jpg" },
-      { id: 7, name: t("summer.7"), image: "Images/summer/7.jpg" },
-      { id: 8, name: t("summer.8"), image: "Images/summer/8.jpg" },
-      { id: 9, name: t("summer.9"), image: "Images/summer/9.jpg" },
-      { id: 10, name: t("summer.10"), image: "Images/summer/10.jpg" },
+      { id: 23, name: t("summer.3"), image: "Images/summer/3.jpg" },
+      { id: 22, name: t("summer.2"), image: "Images/summer/2.jpg" },
+      { id: 24, name: t("summer.4"), image: "Images/summer/4.jpg" },
+      { id: 21, name: t("summer.1"), image: "Images/summer/1.jpg" },
+      { id: 25, name: t("summer.5"), image: "Images/summer/5.jpg" },
+      { id: 26, name: t("summer.6"), image: "Images/summer/6.jpg" },
+      { id: 27, name: t("summer.7"), image: "Images/summer/7.jpg" },
+      { id: 28, name: t("summer.8"), image: "Images/summer/8.jpg" },
+      { id: 29, name: t("summer.9"), image: "Images/summer/9.jpg" },
+      { id: 30, name: t("summer.10"), image: "Images/summer/10.jpg" },
     ];
   
     return (

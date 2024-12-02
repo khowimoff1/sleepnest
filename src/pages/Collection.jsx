@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { CiSearch } from "react-icons/ci";
 
@@ -60,12 +60,13 @@ const Collection = () => {
     }
     return [];
   };
+
   const searchFilter = () => {
     return products.filter((product) =>
       product.name.toLowerCase().includes(searchQuery.toLowerCase())
     );
-  }
-
+  };
+  
 
   return (
     <div className="flex flex-col md:flex-row md:pt-28 m-auto max-w-[85rem] px-5 pt-16 ">
@@ -84,13 +85,11 @@ const Collection = () => {
         </label>
         <div className="hidden mt-5 ">
           <ul className="flex">
-            {categories.map(item => (
+            {categories.map((item) => (
               <li
                 key={item.id}
                 className={`mt-2 text-white text-xs ${
-                  item.name == selected
-                   ? "bg-red-500 "
-                    : "bg-black"
+                  item.name == selected ? "bg-red-500 " : "bg-black"
                 } `}
                 onClick={() => setSelected(item.name)}
               >
@@ -191,7 +190,7 @@ const Collection = () => {
               </div>
             ))
           ) : (
-            <img src="Images/error.webp"/>
+            <img src="Images/error.webp" />
           )}
         </div>
       )}

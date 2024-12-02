@@ -97,5 +97,51 @@
     "Winter":"Qish kolleksiyasi",
     "Autumn":"Kuz kolleksiyasi",
     "Summer":"Yozgi kolleksiya"
+  },
+  "about":{
+    "Ecologically":"Ekologik Toza Uyqu Mahsulotlari",
+    "Our":"Matolarimiz va ekologik sumkalar ishlab chiqaruvchi korxonamiz uzoq yillardan beri paxta matolarini global bozorda yetkazib berib kelmoqda.",
+    "Our company":"Korxonamiz o‘z faoliyatini 17 yil avval boshlagan va shu vaqt ichida mijozlarimiz ishonchini qozonib kelmoqda.",
+    "The":"Kompaniyamizning bosh maqsadi — sifatli, bardoshli va ekologik xavfsiz mahsulotlarni yaratishdir.",
+    "Manufacturing":"Ishlab chiqarish jarayonlari butunlay ekologik standartlarga mos bo‘lib, atrof-muhitga zarar yetkazmaslikka qaratilgan.",
+    "Using":"Zamonaviy texnologiyalardan foydalanib, turli xil paxta mahsulotlarini yuqori darajada ishlab chiqarish imkoniyatiga egamiz.",
+    "Also":"Shuningdek, biz DongJu to‘quv uskunalarining O‘zbekistondagi rasmiy vakili sifatida faoliyat yuritamiz.",
+    "Every":"Har yili fabrikamizda 80 dan ortiq mahsulot turlari ishlab chiqariladi, buning natijasida kompaniya yuqori sifat va barqaror ishlab chiqarishni ta’minlaydi.",
+    "More":"Korxonamizda zamonaviy texnologiyalar asosida 50 dan ortiq to‘quv dastgohlari faoliyat ko‘rsatmoqda.",
+    "In":"Bizning ishlab chiqarish jarayonlarimizda faqat sifatli va ekologik xavfsiz mahsulotlar ishlab chiqarishni ta’minlaymiz.",
+    "According":"Mijozlarimiz talablariga javoban, ekologik xavfsiz va zamonaviy dizaynli sumkalar ishlab chiqarish yo‘lga qo‘yilgan.",
+    "Our2":"Kompaniyamiz har doim mijozlariga sifatli mahsulot va yuqori darajadagi xizmat ko‘rsatishdan mamnun."
+  },
+  "contact":{
+    "Connection":"Aloqa",
+    "Your":"Sizning electron pochtangiz",
+    "Your phone":"Telefon raqamingiz",
+    "Please":"Sizning xabaringiz bo'lsa yozing",
+    "Send":"Yuborish",
+    "Bukhara":"Bukhara, st. Alpomish 80"
+  },
+  "wish":{
+    "Circles":"Davralar",
+    "Material":"Material:",
+    "100%":"100% paxta flanel",
+    "Pillowcase":"Yostiq kiyimi:",
+    "50x70":"50x70 sm (2 dona)",
+    "Bedding":"Choyshab:",
+    "260×280":"260×280 sm (1 dona)",
+    "Bed":"Ko'rpa-to'shak:",
+    "160x220":"160x220 sm (2 dona)",
+    "Size":"Hajmi:",
+    "Custom":"Maxsus o'lcham",
+    "Manufacturer":"Ishlab chiqaruvchi:" ,
+    "Environmental":"Ekologik Toza Uyqu Mahsulotlat",
+    "Category":"Kategoriya: Qish kolleksiyasi",
+    "Product":"Mahsulot haqida sharhlar",
+    "No":"Hozircha sharhlar yo'q.",
+    "Leave":"O'z sharhingizni qoldiring",
+    "Your":"Sizning reytingingiz:",
+    "Name":"Ism *",
+    "Email":"Elektron pochta *",
+    "Your review":"Sizning sharhingiz *",
+    "Submit":"Sharhni yuborish"
   }
 }

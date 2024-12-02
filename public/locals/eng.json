@@ -97,5 +97,51 @@
     "Winter":"Winter Collection",
     "Autumn":"Autumn Collection",
     "Summer":"Summer Collection"
+  },
+  "about":{
+    "Ecologically":"Ecologically Clean Sleep Products",
+    "Our":"Our company, which produces cotton fabrics and ecological bags, has been supplying cotton fabrics to the global market for many years.",
+    "Our company":"Our company started its activity 17 years ago and has been gaining the trust of our customers.",
+    "The":"The main goal of our company is to create high-quality, durable and environmentally friendly products.",
+    "Manufacturing":"Manufacturing processes are fully environmentally friendly and environmentally friendly.",
+    "Using":"Using modern technologies, we are able to produce various cotton products at a high level.",
+    "Also":"Also, we act as the official representative of DongJu weaving equipment in Uzbekistan.",
+    "Every":"Every year, more than 80 types of products are produced in our factory, as a result of which the company ensures high quality and stable production.",
+    "More":"More than 50 looms are operating in our enterprise based on modern technologies.",
+    "In":"In our production processes, we ensure the production of only high-quality and environmentally safe products.",
+    "According":"According to the requirements of our customers, the production of eco-friendly and modern design bags has been launched.",
+    "Our2":"Our company is always happy to provide qu ality products and high level of service to its customers."
+  },
+  "contact":{
+    "Connection":"Connection",
+    "Your":"Your email",
+    "Your phone":"Your phone number",
+    "Please":"Please write if you have a message",
+    "Send":"Send",
+    "Bukhara":"Bukhara, st. Alpomish 80"
+  },
+  "wish":{
+    "Circles":"Circles",
+    "Material":"Material:",
+    "100%":"100% Cotton Flanne",
+    "Pillowcase":"Pillowcase:",
+    "50x70":"50x70 cm (2 pieces)",
+    "Bedding":"Bedding:",
+    "260×280":"260×280 cm (1 piece)",
+    "Bed":"Bed:",
+    "160x220":"160x220 cm (2 pieces)",
+    "Size":"Size:",
+    "Custom":"Custom Size",
+    "Manufacturer":"Manufacturer:" ,
+    "Environmental":"Environmental Clean Sleep Product",
+    "Category":"Category: Winter Collection",
+    "Product":"Product Reviews",
+    "No":"No reviews yet.",
+    "Leave":"Leave your review",
+    "Your":"Your rating:",
+    "Name":"Name *",
+    "Email":"Email *",
+    "Your review":"Your review *",
+    "Submit":"Submit a review"
   }
 }

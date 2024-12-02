@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useDispatch, useSelector } from "react-redux";
 import "aos/dist/aos.css";
 import AOS from "aos";
+import { addCard } from "../Action";
 
 const Collectionn = () => {
   const { t, i18n } = useTranslation();
@@ -18,6 +20,12 @@ const Collectionn = () => {
     { id: 9, name: t("collection.9"), image: "Images/winter/9.jpg" },
     { id: 10, name: t("collection.10"), image: "Images/winter/10.jpg" },
   ];
+  
+  const dispatch = useDispatch()
+  
+  const card = useSelector(state => state.card);
+  console.log(card);
+  
 
   useEffect(() => {
     AOS.init({
@@ -46,7 +54,7 @@ const Collectionn = () => {
                 height={202}
                 className="md:w-[185px] md:h-[139px] lg:w-[250px] lg:h-[188px] transform transition-transform duration-300 group-hover:scale-105"
               />
-              <div className="absolute z-10 p-1 text-white transition-transform duration-300 bg-gray-300 rounded-full top-1 right-1 group-hover:scale-110">
+              <div onClick={()=>dispatch(addCard(item))} className="absolute z-10 p-1 text-white transition-transform duration-300 bg-gray-300 rounded-full top-1 right-1 group-hover:scale-110">
                 <svg
                   stroke="currentColor"
                   fill="red"
