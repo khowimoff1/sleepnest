@@ -24,7 +24,6 @@ const Collectionn = () => {
   const dispatch = useDispatch()
   
   const card = useSelector(state => state.card);
-  console.log(card);
   
 
   useEffect(() => {
