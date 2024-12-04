@@ -17,7 +17,7 @@ const Wishlist = () => {
   return (
     <div className="flex md:pt-28 m-auto max-w-[85rem] px-5 pt-16">
       {card.length > 0 ? (
-        <div className="flex flex-wrap min-h-screen gap-10">
+        <div className="flex flex-wrap gap-10 pb-[190px] md:pb-[500px]">
           {card.map((item) => (
             <div
               key={item.id}
@@ -28,7 +28,7 @@ const Wishlist = () => {
                   <img
                     src={item.image}
                     alt={item.name}
-                    width={269}
+                    width={149}
                     height={202}
                     className="md:w-[185px] cursor-default md:h-[139px] lg:w-[250px] lg:h-[188px] transform transition-transform duration-300 group-hover:scale-105"
                   />

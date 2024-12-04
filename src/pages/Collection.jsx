@@ -4,7 +4,6 @@ import { CiSearch } from "react-icons/ci";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { addCard, removeCard } from "../Action";
-import { FcLikePlaceholder } from "react-icons/fc";
 
 const Collection = () => {
   const { t, i18n } = useTranslation();
@@ -218,6 +217,7 @@ const Collection = () => {
   const card = useSelector((state) => state.card);
   const dispatch = useDispatch();
 
+  console.log(selected);
   
   return (
     <div className="flex flex-col md:flex-row md:pt-28 m-auto max-w-[85rem] px-5 pt-16 ">
@@ -256,7 +256,7 @@ const Collection = () => {
               <div
                 key={c.id}
                 className={`mt-2 text-lg font-semibold cursor-pointer ${
-                  c.name == selected
+                  c.name == selected 
                     ? "text-orange-600"
                     : "hover:text-orange-300"
                 } `}
