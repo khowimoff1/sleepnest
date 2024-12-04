@@ -134,7 +134,7 @@
     "Custom":"Custom Size",
     "Manufacturer":"Manufacturer:" ,
     "Environmental":"Environmental Clean Sleep Product",
-    "Category":"Category: Winter Collection",
+    "Category":"Category:",
     "Product":"Product Reviews",
     "No":"No reviews yet.",
     "Leave":"Leave your review",
@@ -143,5 +143,11 @@
     "Email":"Email *",
     "Your review":"Your review *",
     "Submit":"Submit a review"
-  }
+  },
+  "category":{
+    "w":"Winter Collection",
+    "a":"Autumn Collection",
+    "s":"Summer Collection"
+  },
+  "xabar":"Sent To Successfully"
 }

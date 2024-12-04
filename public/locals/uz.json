@@ -134,7 +134,7 @@
     "Custom":"Maxsus o'lcham",
     "Manufacturer":"Ishlab chiqaruvchi:" ,
     "Environmental":"Ekologik Toza Uyqu Mahsulotlat",
-    "Category":"Kategoriya: Qish kolleksiyasi",
+    "Category":"Kategoriya:",
     "Product":"Mahsulot haqida sharhlar",
     "No":"Hozircha sharhlar yo'q.",
     "Leave":"O'z sharhingizni qoldiring",
@@ -143,5 +143,11 @@
     "Email":"Elektron pochta *",
     "Your review":"Sizning sharhingiz *",
     "Submit":"Sharhni yuborish"
-  }
+  },
+  "category":{
+    "w":"Qish kolleksiyasi",
+    "a":"Kuz kolleksiyasi",
+    "s":"Yoz kolleksiyasi"
+  },
+  "xabar":"Xabar muvaffaqiyatli yuborildi!"
 }

@@ -4,6 +4,7 @@ import { FcLike } from "react-icons/fc";
 import { TbAlignLeft } from "react-icons/tb";
 import { RiCloseFill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -12,10 +13,8 @@ const Header = () => {
     const slectedLanguage = e.target.value;
     i18n.changeLanguage(slectedLanguage);
   };
-
   const [menu, setMenu] = useState(false);
   const [closing, setClosing] = useState(false);
-
   const closeMenu = () => {
     setClosing(true);
     setTimeout(() => {
@@ -26,7 +25,8 @@ const Header = () => {
   const openMenu = () => {
     setMenu(true);
   };
-
+  const card = useSelector(state=>state.card)
+  
   return (
     <div className="fixed z-50 w-full py-2 bg-white shadow-md">
       <div className="container flex items-center justify-between px-3 lg:px-0 m-auto max-w-[85rem]">
@@ -68,7 +68,7 @@ const Header = () => {
             <NavLink to="/wishlist" className="relative">
               <FcLike className="text-xl" />
               <span className="absolute px-1 text-xs text-white bg-black rounded-full -right-2 -top-1">
-                0
+                {card.length}
               </span>
             </NavLink>
           </nav>

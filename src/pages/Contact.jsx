@@ -1,34 +1,94 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { RiMessage2Line } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoLocationOutline } from "react-icons/io5";
+import axios from "axios";
 
 const Contact = () => {
   const { t, i18n } = useTranslation();
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState("");
+
+  const validateInputs = () => {
+    if (!name.trim()) {
+      setError("Исмингизни киритинг.");
+      return false;
+    }
+    if (!phone.trim()) {
+      setError("Телефон рақамини киритинг.");
+      return false;
+    }
+    return true;
+  };
+
+  const sendMessage = async (e) => {
+    e.preventDefault();
+    setSuccess(false);
+    setError("");
+
+    if (!validateInputs()) return;
+
+    const token = "7913792544:AAE2O9y-RBQ_qeBOciy9sX8_O11wcroB6Zw";
+    const chat_id = 5235241793;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
+    const messageText = `Ism: ${name}\nTelefon: ${phone}\nXabar: ${message}`;
+
+    try {
+      await axios.post(url, {
+        chat_id: chat_id,
+        text: messageText,
+      });
+      setSuccess(true);
+      setName("");
+      setPhone("");
+      setMessage("");
+    } catch (error) {
+      setError("Хабар юборишда хатолик юз берди. Кейинроқ уриниб кўринг.");
+      console.error("Xatolik yuz berdi", error);
+    }
+  };
 
   return (
     <div className="flex flex-col md:pt-28 m-auto max-w-[85rem] px-5 pt-16">
       <div className="flex flex-col w-full lg:flex-row lg:gap-10">
-        <form className="w-full lg:w-auto">
+        <form className="w-full lg:w-auto" onSubmit={sendMessage}>
           <h1 className="font-bold text-[32px] mb-4 md:text-[38px]">
             {t("contact.Connection")}
           </h1>
           <input
-            type="email"
+            type="text"
             placeholder={t("contact.Your")}
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
             className="bg-[#e4e4e4] outline-none rounded-3xl px-4 py-3 w-full mb-5 text-xs md:text-sm md:p-5"
           />
           <input
             type="text"
             placeholder={t("contact.Your phone")}
+            required
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
             className="bg-[#e4e4e4] outline-none rounded-3xl px-4 py-3 w-full mb-5 text-xs md:text-sm md:p-5"
           />
           <textarea
             placeholder={t("contact.Please")}
-            className="bg-[#e4e4e4] outline-none rounded-3xl px-4 py-3 w-full h-24 mb-5 text-xs md:text-sm md:p-5"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="bg-[#e4e4e4] outline-none rounded-3xl px-4 py-3 w-full h-24 mb-3 text-xs md:text-sm md:p-5"
           />
-          <button className="px-8 py-3 text-xs text-white bg-red-500 rounded-3xl md:text-sm">
+
+          {success && <div className="text-green-500">{t("xabar")}</div>}
+          {error && <div className="text-red-500">{error}</div>}
+          <button
+            type="submit"
+            className="px-8 py-3 mt-3 text-xs text-white bg-red-500 rounded-3xl md:text-sm"
+          >
             {t("contact.Send")}
           </button>
         </form>

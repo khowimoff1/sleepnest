@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Collection from "../pages/Collection";
 import Contact from "../pages/Contact";
 import Wishlist from "../pages/Wishlist";
+import Product from "../pages/Product";
 
 export const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ export const router = createBrowserRouter([
         path: "wishlist",
         element: <Wishlist />,
       },
+      {
+        path: ":id",
+        element: <Product />,
+      }
     ],
   },
 ]);

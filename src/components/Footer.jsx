@@ -1,5 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
@@ -21,30 +22,30 @@ const Footer = () => {
             <div>
               <h1 className="text-base font-bold">{t("footer.menu")}</h1>
               <nav className="flex flex-col mt-2">
-                <a
-                  href="/"
+                <NavLink
+                  to="/"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   {t("header.Home")}
-                </a>
-                <a
-                  href="/collection"
+                </NavLink>
+                <NavLink
+                  to="/collection"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   {t("header.Collection")}
-                </a>
-                <a
-                  href="/about"
+                </NavLink>
+                <NavLink
+                  to="/about"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   {t("header.About")}
-                </a>
-                <a
-                  href="/contact"
+                </NavLink>
+                <NavLink
+                  to="/contact"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   {t("header.Contacts")}
-                </a>
+                </NavLink>
               </nav>
             </div>
             <div>
@@ -53,21 +54,21 @@ const Footer = () => {
                 <p className="text-[#00000098] text-sm font-medium">
                   {t("footer.Bukhara")}
                 </p>
-                <a
-                  href="mailto:sleepnest@gamil.com"
+                <NavLink
+                  to="mailto:sleepnest@gamil.com"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   {t("footer.Email")}
-                </a>
+                </NavLink>
                 <p className="text-[#00000098] text-sm hover:text-orange-400 font-medium">
                   {t("footer.Telegram")}
                 </p>
-                <a
-                  href="tel:+998940337212"
+                <NavLink
+                  to="tel:+998940337212"
                   className="text-[#00000098] text-sm hover:text-orange-400 font-medium"
                 >
                   +99894 033 72 12
-                </a>
+                </NavLink>
               </nav>
             </div>
           </div>
