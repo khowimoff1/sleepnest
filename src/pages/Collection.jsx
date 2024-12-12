@@ -216,8 +216,6 @@ const Collection = () => {
   };
   const card = useSelector((state) => state.card);
   const dispatch = useDispatch();
-
-  console.log(selected);
   
   return (
     <div className="flex flex-col md:flex-row md:pt-28 m-auto max-w-[85rem] px-5 pt-16 ">

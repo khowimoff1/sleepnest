@@ -3,15 +3,17 @@ import { useTranslation } from "react-i18next";
 import { FcLike } from "react-icons/fc";
 import { TbAlignLeft } from "react-icons/tb";
 import { RiCloseFill } from "react-icons/ri";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
   const languages = localStorage.getItem("i18nextLng");
-  const languageChange = (e) => {
+   const languageChange = (e) => {
     const slectedLanguage = e.target.value;
     i18n.changeLanguage(slectedLanguage);
+    window.location.reload();
+     
   };
   const [menu, setMenu] = useState(false);
   const [closing, setClosing] = useState(false);

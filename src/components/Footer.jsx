@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   const { t, i18n } = useTranslation();
+
+  const [sendEmail,setSenEmail] = useState(false)
+  const handleSubmit =(e) => {
+    e.preventDefault();
+    setSenEmail(true);
+    e.target.reset();
+    setTimeout(()=>{
+      setSenEmail(false);
+    },5000)
+  }
   return (
     <div className="">
       <div className="container flex flex-col items-start justify-between m-auto max-w-[85rem] px-5 mt-10 lg:flex-row">
@@ -75,16 +85,18 @@ const Footer = () => {
         </div>
         <div className="flex flex-col items-center w-full mt-5 md:w-auto md:items-start">
           <h1 className="text-base font-bold">{t("footer.Subscribe")}</h1>
-          <label className="flex items-center justify-center px-2 mt-2 border-2 rounded-xl md:w-[400px]">
+          <form onSubmit={handleSubmit}  className="flex items-center justify-center px-2 mt-2 border-2 rounded-xl md:w-[400px]">
             <input
               type="email"
+              required
               placeholder={t("footer.Subscribe")}
               className="w-full h-12 p-3 outline-none"
             />
             <button className="px-1 text-sm font-medium text-white bg-red-600 w-36 rounded-xl h-9 hover:bg-black ">
               {t("footer.Subscribee")}
             </button>
-          </label>
+          </form>
+          {sendEmail && <h1 className="font-semibold text-green-600">{t("footer.send")}</h1>}
           <p className="text-[#00000098] text-sm hover:text-orange-400 font-medium mt-3">
             {t("footer.Select")}
           </p>
